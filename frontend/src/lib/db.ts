@@ -40,7 +40,26 @@ export interface HourlyTrend {
   departure_count: number;
 }
 
-export async function getOverallStats(days: number = 7) {
+export type TransportFilter = 'all' | 'nahverkehr' | 'fernverkehr';
+
+function getTransportTypeFilter(filter: TransportFilter): string {
+  if (filter === 'nahverkehr') {
+    return "AND l.transport_type IN ('U-Bahn', 'Straßenbahn', 'Bus')";
+  } else if (filter === 'fernverkehr') {
+    return "AND l.transport_type NOT IN ('U-Bahn', 'Straßenbahn', 'Bus')";
+  }
+  return '';
+}
+
+export async function getOverallStats(days: number = 7, transportFilter: TransportFilter = 'all') {
+  const transportCondition = transportFilter !== 'all' 
+    ? `AND EXISTS (
+        SELECT 1 FROM lines l 
+        WHERE l.id = d.line_id 
+        ${getTransportTypeFilter(transportFilter).replace('AND ', '')}
+      )`
+    : '';
+    
   const result = await pool.query(`
     SELECT 
       COUNT(*) as total_departures,
@@ -52,14 +71,15 @@ export async function getOverallStats(days: number = 7) {
       COUNT(*) FILTER (WHERE is_cancelled) as cancellations,
       COUNT(DISTINCT line_id) as unique_lines,
       COUNT(DISTINCT stop_id) as unique_stops
-    FROM departures
+    FROM departures d
     WHERE timestamp > NOW() - INTERVAL '${days} days'
+    ${transportCondition}
   `);
   
   return result.rows[0];
 }
 
-export async function getDelayStatsByLine(days: number = 7): Promise<DelayStats[]> {
+export async function getDelayStatsByLine(days: number = 7, transportFilter: TransportFilter = 'all'): Promise<DelayStats[]> {
   const result = await pool.query(`
     SELECT 
       l.line_name,
@@ -75,6 +95,7 @@ export async function getDelayStatsByLine(days: number = 7): Promise<DelayStats[
     JOIN lines l ON d.line_id = l.id
     WHERE d.timestamp > NOW() - INTERVAL '${days} days'
       AND d.delay_seconds IS NOT NULL
+      ${getTransportTypeFilter(transportFilter)}
     GROUP BY l.line_name, l.transport_type
     ORDER BY avg_delay_seconds DESC
     LIMIT 50
@@ -83,24 +104,26 @@ export async function getDelayStatsByLine(days: number = 7): Promise<DelayStats[
   return result.rows;
 }
 
-export async function getDelayStatsByStop(days: number = 7): Promise<any[]> {
+export async function getDelayStatsByStop(days: number = 7, transportFilter: TransportFilter = 'all'): Promise<any[]> {
   const result = await pool.query(`
     SELECT 
       s.name as stop_name,
       s.external_id,
       AVG(d.delay_seconds) FILTER (WHERE d.delay_seconds IS NOT NULL) as avg_delay_seconds,
       PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY d.delay_seconds) FILTER (WHERE d.delay_seconds IS NOT NULL) as median_delay_seconds,
+      PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY d.delay_seconds) FILTER (WHERE d.delay_seconds IS NOT NULL) as p95_delay_seconds,
       COUNT(*) as total_departures,
       COUNT(*) FILTER (WHERE d.delay_seconds > 60) as delays_over_1min,
       COUNT(*) FILTER (WHERE d.delay_seconds > 300) as delays_over_5min
     FROM departures d
     JOIN stops s ON d.stop_id = s.id
+    JOIN lines l ON d.line_id = l.id
     WHERE d.timestamp > NOW() - INTERVAL '${days} days'
       AND d.delay_seconds IS NOT NULL
+      ${getTransportTypeFilter(transportFilter)}
     GROUP BY s.name, s.external_id
-    HAVING COUNT(*) > 100
+    HAVING COUNT(*) > 50
     ORDER BY avg_delay_seconds DESC
-    LIMIT 30
   `);
   
   return result.rows;

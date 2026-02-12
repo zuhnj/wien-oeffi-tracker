@@ -79,7 +79,7 @@ async function testStopId(id: string): Promise<DiscoveredStop | null> {
       return null;
     }
 
-    const data = await response.json();
+    const data: any = await response.json();
     
     // Check for errors
     if (data.message && data.message.messageCode !== 1) {

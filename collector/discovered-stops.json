@@ -1,0 +1,1820 @@
+[
+  {
+    "id": "10",
+    "name": "Stubentor U",
+    "monitors_count": 1,
+    "lines": [
+      "2"
+    ],
+    "discovered_at": "2026-02-12T10:26:08.743Z"
+  },
+  {
+    "id": "11",
+    "name": "Weihburggasse",
+    "monitors_count": 1,
+    "lines": [
+      "2"
+    ],
+    "discovered_at": "2026-02-12T10:26:23.828Z"
+  },
+  {
+    "id": "12",
+    "name": "Schwarzenbergplatz",
+    "monitors_count": 1,
+    "lines": [
+      "2"
+    ],
+    "discovered_at": "2026-02-12T10:26:38.981Z"
+  },
+  {
+    "id": "13",
+    "name": "Oper, Karlsplatz U",
+    "monitors_count": 4,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:26:54.101Z"
+  },
+  {
+    "id": "14",
+    "name": "Burgring",
+    "monitors_count": 4,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:27:09.192Z"
+  },
+  {
+    "id": "16",
+    "name": "Parlament",
+    "monitors_count": 4,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:28:09.995Z"
+  },
+  {
+    "id": "17",
+    "name": "Rathausplatz, Burgtheater",
+    "monitors_count": 3,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:28:25.160Z"
+  },
+  {
+    "id": "18",
+    "name": "Schottentor U",
+    "monitors_count": 3,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:28:40.252Z"
+  },
+  {
+    "id": "19",
+    "name": "Börse",
+    "monitors_count": 3,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:28:55.657Z"
+  },
+  {
+    "id": "20",
+    "name": "Schottenring U",
+    "monitors_count": 1,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:29:11.047Z"
+  },
+  {
+    "id": "21",
+    "name": "Salztorbrücke",
+    "monitors_count": 1,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:29:26.142Z"
+  },
+  {
+    "id": "22",
+    "name": "Schwedenplatz U",
+    "monitors_count": 2,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:29:41.532Z"
+  },
+  {
+    "id": "23",
+    "name": "Julius-Raab-Platz",
+    "monitors_count": 1,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:30:02.570Z"
+  },
+  {
+    "id": "36",
+    "name": "Westbahnhof S U",
+    "monitors_count": 1,
+    "lines": [
+      "52"
+    ],
+    "discovered_at": "2026-02-12T10:34:21.692Z"
+  },
+  {
+    "id": "41",
+    "name": "Julius-Raab-Platz",
+    "monitors_count": 1,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:36:43.397Z"
+  },
+  {
+    "id": "42",
+    "name": "Schwedenplatz U",
+    "monitors_count": 1,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:37:04.079Z"
+  },
+  {
+    "id": "43",
+    "name": "Salztorbrücke",
+    "monitors_count": 2,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:37:19.246Z"
+  },
+  {
+    "id": "44",
+    "name": "Schottenring U",
+    "monitors_count": 2,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:37:34.634Z"
+  },
+  {
+    "id": "45",
+    "name": "Börse",
+    "monitors_count": 3,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:37:50.100Z"
+  },
+  {
+    "id": "46",
+    "name": "Schottentor U",
+    "monitors_count": 3,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:38:05.316Z"
+  },
+  {
+    "id": "47",
+    "name": "Rathausplatz, Burgtheater",
+    "monitors_count": 3,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:38:20.776Z"
+  },
+  {
+    "id": "48",
+    "name": "Parlament",
+    "monitors_count": 3,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:38:36.266Z"
+  },
+  {
+    "id": "49",
+    "name": "Ring, Volkstheater U",
+    "monitors_count": 4,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:38:51.739Z"
+  },
+  {
+    "id": "50",
+    "name": "Burgring",
+    "monitors_count": 4,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T10:39:06.952Z"
+  },
+  {
+    "id": "54",
+    "name": "Stubentor U",
+    "monitors_count": 1,
+    "lines": [
+      "2"
+    ],
+    "discovered_at": "2026-02-12T10:41:43.289Z"
+  },
+  {
+    "id": "55",
+    "name": "Julius-Raab-Platz",
+    "monitors_count": 1,
+    "lines": [
+      "2"
+    ],
+    "discovered_at": "2026-02-12T10:41:58.681Z"
+  },
+  {
+    "id": "58",
+    "name": "Hauptbahnhof Ost",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T10:43:44.024Z"
+  },
+  {
+    "id": "59",
+    "name": "Schüttaustraße",
+    "monitors_count": 1,
+    "lines": [
+      "92A"
+    ],
+    "discovered_at": "2026-02-12T10:43:59.592Z"
+  },
+  {
+    "id": "60",
+    "name": "Schüttaustraße",
+    "monitors_count": 1,
+    "lines": [
+      "92A"
+    ],
+    "discovered_at": "2026-02-12T10:44:19.835Z"
+  },
+  {
+    "id": "62",
+    "name": "Schüttauplatz",
+    "monitors_count": 1,
+    "lines": [
+      "92A"
+    ],
+    "discovered_at": "2026-02-12T10:44:50.016Z"
+  },
+  {
+    "id": "67",
+    "name": "Seidelbastgasse",
+    "monitors_count": 1,
+    "lines": [
+      "92A"
+    ],
+    "discovered_at": "2026-02-12T10:47:05.940Z"
+  },
+  {
+    "id": "68",
+    "name": "Stavangergasse",
+    "monitors_count": 1,
+    "lines": [
+      "92A"
+    ],
+    "discovered_at": "2026-02-12T10:47:21.324Z"
+  },
+  {
+    "id": "69",
+    "name": "Haßlwanderweg",
+    "monitors_count": 1,
+    "lines": [
+      "92A"
+    ],
+    "discovered_at": "2026-02-12T10:47:36.898Z"
+  },
+  {
+    "id": "72",
+    "name": "Kaisermühlen-VIC U",
+    "monitors_count": 2,
+    "lines": [
+      "20A"
+    ],
+    "discovered_at": "2026-02-12T10:48:52.470Z"
+  },
+  {
+    "id": "73",
+    "name": "Goethehof",
+    "monitors_count": 1,
+    "lines": [
+      "92A"
+    ],
+    "discovered_at": "2026-02-12T10:49:07.865Z"
+  },
+  {
+    "id": "74",
+    "name": "Schödlbergergasse",
+    "monitors_count": 1,
+    "lines": [
+      "92A"
+    ],
+    "discovered_at": "2026-02-12T10:49:23.255Z"
+  },
+  {
+    "id": "79",
+    "name": "Schottenring U",
+    "monitors_count": 1,
+    "lines": [
+      "71"
+    ],
+    "discovered_at": "2026-02-12T10:51:44.614Z"
+  },
+  {
+    "id": "81",
+    "name": "Schwarzenbergplatz",
+    "monitors_count": 2,
+    "lines": [
+      "71"
+    ],
+    "discovered_at": "2026-02-12T10:52:15.421Z"
+  },
+  {
+    "id": "90",
+    "name": "Beethovengang",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T10:55:09.092Z"
+  },
+  {
+    "id": "92",
+    "name": "Sickenberggasse",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T10:56:09.890Z"
+  },
+  {
+    "id": "94",
+    "name": "Halteraugasse",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T10:57:10.381Z"
+  },
+  {
+    "id": "95",
+    "name": "Heiligenstadt, 12.-Februar-Platz",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T10:57:25.540Z"
+  },
+  {
+    "id": "96",
+    "name": "Gunoldstraße",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T10:57:40.624Z"
+  },
+  {
+    "id": "97",
+    "name": "Rampengasse",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T10:57:56.074Z"
+  },
+  {
+    "id": "98",
+    "name": "Spittelau S U",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T10:58:11.220Z"
+  },
+  {
+    "id": "99",
+    "name": "Liechtenwerder Platz",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T10:58:26.309Z"
+  },
+  {
+    "id": "100",
+    "name": "Augasse",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T10:58:41.715Z"
+  },
+  {
+    "id": "101",
+    "name": "Franz-Josefs-Bahnhof S",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T10:58:57.107Z"
+  },
+  {
+    "id": "102",
+    "name": "Bauernfeldplatz",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T10:59:12.495Z"
+  },
+  {
+    "id": "103",
+    "name": "Schlickgasse",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T10:59:27.593Z"
+  },
+  {
+    "id": "105",
+    "name": "Schwarzenbergplatz",
+    "monitors_count": 2,
+    "lines": [
+      "71"
+    ],
+    "discovered_at": "2026-02-12T10:59:57.768Z"
+  },
+  {
+    "id": "108",
+    "name": "Schloss Belvedere",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:01:43.729Z"
+  },
+  {
+    "id": "109",
+    "name": "Quartier Belvedere S",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:01:59.113Z"
+  },
+  {
+    "id": "111",
+    "name": "Quartier Belvedere S",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:02:29.895Z"
+  },
+  {
+    "id": "112",
+    "name": "Schloss Belvedere",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:02:45.295Z"
+  },
+  {
+    "id": "113",
+    "name": "Plößlgasse",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:03:00.724Z"
+  },
+  {
+    "id": "115",
+    "name": "Seegasse",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:04:01.952Z"
+  },
+  {
+    "id": "116",
+    "name": "Schlickgasse",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:04:17.042Z"
+  },
+  {
+    "id": "117",
+    "name": "Bauernfeldplatz",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:04:32.441Z"
+  },
+  {
+    "id": "118",
+    "name": "Franz-Josefs-Bahnhof S",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:04:47.557Z"
+  },
+  {
+    "id": "119",
+    "name": "Augasse",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:05:02.621Z"
+  },
+  {
+    "id": "121",
+    "name": "Spittelau S U",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:06:04.532Z"
+  },
+  {
+    "id": "123",
+    "name": "Gunoldstraße",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:07:05.026Z"
+  },
+  {
+    "id": "124",
+    "name": "Heiligenstadt, 12.-Februar-Platz",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:07:20.114Z"
+  },
+  {
+    "id": "125",
+    "name": "Halteraugasse",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:07:35.206Z"
+  },
+  {
+    "id": "126",
+    "name": "Grinzinger Straße",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:07:50.599Z"
+  },
+  {
+    "id": "127",
+    "name": "Sickenberggasse",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:08:06.053Z"
+  },
+  {
+    "id": "128",
+    "name": "Nußdorf S",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:08:21.503Z"
+  },
+  {
+    "id": "130",
+    "name": "Seegasse",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:08:52.294Z"
+  },
+  {
+    "id": "131",
+    "name": "Eckpergasse",
+    "monitors_count": 1,
+    "lines": [
+      "40"
+    ],
+    "discovered_at": "2026-02-12T11:09:07.370Z"
+  },
+  {
+    "id": "135",
+    "name": "Althanstraße",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:11:38.048Z"
+  },
+  {
+    "id": "136",
+    "name": "Althanstraße",
+    "monitors_count": 1,
+    "lines": [
+      "D"
+    ],
+    "discovered_at": "2026-02-12T11:11:53.131Z"
+  },
+  {
+    "id": "137",
+    "name": "Hietzing U",
+    "monitors_count": 1,
+    "lines": [
+      "51A"
+    ],
+    "discovered_at": "2026-02-12T11:12:08.529Z"
+  },
+  {
+    "id": "139",
+    "name": "Ameisgasse",
+    "monitors_count": 1,
+    "lines": [
+      "51A"
+    ],
+    "discovered_at": "2026-02-12T11:13:09.314Z"
+  },
+  {
+    "id": "140",
+    "name": "Leyserstraße",
+    "monitors_count": 1,
+    "lines": [
+      "51A"
+    ],
+    "discovered_at": "2026-02-12T11:13:24.708Z"
+  },
+  {
+    "id": "141",
+    "name": "Herbeckstraße",
+    "monitors_count": 1,
+    "lines": [
+      "40"
+    ],
+    "discovered_at": "2026-02-12T11:13:39.795Z"
+  },
+  {
+    "id": "142",
+    "name": "Alsegger Straße",
+    "monitors_count": 1,
+    "lines": [
+      "40"
+    ],
+    "discovered_at": "2026-02-12T11:13:55.193Z"
+  },
+  {
+    "id": "143",
+    "name": "Gersthof S",
+    "monitors_count": 3,
+    "lines": [
+      "40"
+    ],
+    "discovered_at": "2026-02-12T11:14:10.584Z"
+  },
+  {
+    "id": "144",
+    "name": "Weinhauser Gasse",
+    "monitors_count": 2,
+    "lines": [
+      "40"
+    ],
+    "discovered_at": "2026-02-12T11:14:25.726Z"
+  },
+  {
+    "id": "145",
+    "name": "Aumannplatz",
+    "monitors_count": 2,
+    "lines": [
+      "40"
+    ],
+    "discovered_at": "2026-02-12T11:14:40.839Z"
+  },
+  {
+    "id": "146",
+    "name": "Martinstraße",
+    "monitors_count": 2,
+    "lines": [
+      "40"
+    ],
+    "discovered_at": "2026-02-12T11:14:55.932Z"
+  },
+  {
+    "id": "148",
+    "name": "Spitalgasse",
+    "monitors_count": 3,
+    "lines": [
+      "40"
+    ],
+    "discovered_at": "2026-02-12T11:16:01.489Z"
+  },
+  {
+    "id": "149",
+    "name": "Sensengasse",
+    "monitors_count": 5,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:16:16.900Z"
+  },
+  {
+    "id": "150",
+    "name": "Schwarzspanierstraße",
+    "monitors_count": 5,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:16:31.988Z"
+  },
+  {
+    "id": "151",
+    "name": "Montleartstraße",
+    "monitors_count": 1,
+    "lines": [
+      "51A"
+    ],
+    "discovered_at": "2026-02-12T11:16:47.068Z"
+  },
+  {
+    "id": "152",
+    "name": "Burgersteingasse",
+    "monitors_count": 1,
+    "lines": [
+      "51A"
+    ],
+    "discovered_at": "2026-02-12T11:17:07.630Z"
+  },
+  {
+    "id": "153",
+    "name": "Breitenseer Straße, Braillegasse",
+    "monitors_count": 1,
+    "lines": [
+      "51A"
+    ],
+    "discovered_at": "2026-02-12T11:17:23.021Z"
+  },
+  {
+    "id": "154",
+    "name": "Breitenseer Straße, Braillegasse",
+    "monitors_count": 1,
+    "lines": [
+      "51A"
+    ],
+    "discovered_at": "2026-02-12T11:17:38.172Z"
+  },
+  {
+    "id": "155",
+    "name": "Burgersteingasse",
+    "monitors_count": 1,
+    "lines": [
+      "51A"
+    ],
+    "discovered_at": "2026-02-12T11:17:53.263Z"
+  },
+  {
+    "id": "156",
+    "name": "Montleartstraße",
+    "monitors_count": 1,
+    "lines": [
+      "51A"
+    ],
+    "discovered_at": "2026-02-12T11:18:13.497Z"
+  },
+  {
+    "id": "157",
+    "name": "Leyserstraße",
+    "monitors_count": 1,
+    "lines": [
+      "51A"
+    ],
+    "discovered_at": "2026-02-12T11:18:28.590Z"
+  },
+  {
+    "id": "159",
+    "name": "Cumberlandstraße",
+    "monitors_count": 1,
+    "lines": [
+      "51A"
+    ],
+    "discovered_at": "2026-02-12T11:19:29.148Z"
+  },
+  {
+    "id": "160",
+    "name": "Schöffelgasse",
+    "monitors_count": 2,
+    "lines": [
+      "40"
+    ],
+    "discovered_at": "2026-02-12T11:19:44.312Z"
+  },
+  {
+    "id": "161",
+    "name": "Landstraße, Wien Mitte S U",
+    "monitors_count": 1,
+    "lines": [
+      "O"
+    ],
+    "discovered_at": "2026-02-12T11:20:04.802Z"
+  },
+  {
+    "id": "163",
+    "name": "Hintere Zollamtsstraße",
+    "monitors_count": 1,
+    "lines": [
+      "O"
+    ],
+    "discovered_at": "2026-02-12T11:21:06.577Z"
+  },
+  {
+    "id": "164",
+    "name": "Radetzkyplatz",
+    "monitors_count": 2,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T11:21:21.672Z"
+  },
+  {
+    "id": "165",
+    "name": "Hetzgasse",
+    "monitors_count": 1,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T11:21:37.210Z"
+  },
+  {
+    "id": "166",
+    "name": "Löwengasse",
+    "monitors_count": 1,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T11:21:52.596Z"
+  },
+  {
+    "id": "167",
+    "name": "Wittelsbachstraße",
+    "monitors_count": 1,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T11:22:07.685Z"
+  },
+  {
+    "id": "169",
+    "name": "Prater Hauptallee",
+    "monitors_count": 1,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T11:22:38.461Z"
+  },
+  {
+    "id": "170",
+    "name": "Wittelsbachstraße",
+    "monitors_count": 1,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T11:22:53.848Z"
+  },
+  {
+    "id": "171",
+    "name": "Löwengasse",
+    "monitors_count": 2,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T11:23:09.319Z"
+  },
+  {
+    "id": "172",
+    "name": "Hetzgasse",
+    "monitors_count": 1,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T11:23:24.414Z"
+  },
+  {
+    "id": "173",
+    "name": "Radetzkyplatz",
+    "monitors_count": 1,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T11:23:39.833Z"
+  },
+  {
+    "id": "174",
+    "name": "Hintere Zollamtsstraße",
+    "monitors_count": 2,
+    "lines": [
+      "1"
+    ],
+    "discovered_at": "2026-02-12T11:23:55.235Z"
+  },
+  {
+    "id": "175",
+    "name": "Marxergasse",
+    "monitors_count": 1,
+    "lines": [
+      "O"
+    ],
+    "discovered_at": "2026-02-12T11:24:10.338Z"
+  },
+  {
+    "id": "176",
+    "name": "Landstraße, Wien Mitte S U",
+    "monitors_count": 1,
+    "lines": [
+      "O"
+    ],
+    "discovered_at": "2026-02-12T11:24:25.721Z"
+  },
+  {
+    "id": "177",
+    "name": "Kutschkergasse",
+    "monitors_count": 2,
+    "lines": [
+      "40"
+    ],
+    "discovered_at": "2026-02-12T11:24:40.825Z"
+  },
+  {
+    "id": "180",
+    "name": "Flötzersteigbrücke",
+    "monitors_count": 1,
+    "lines": [
+      "51A"
+    ],
+    "discovered_at": "2026-02-12T11:26:26.108Z"
+  },
+  {
+    "id": "181",
+    "name": "Matschgasse",
+    "monitors_count": 1,
+    "lines": [
+      "51A"
+    ],
+    "discovered_at": "2026-02-12T11:26:41.209Z"
+  },
+  {
+    "id": "182",
+    "name": "Ottakringer Bad",
+    "monitors_count": 1,
+    "lines": [
+      "51A"
+    ],
+    "discovered_at": "2026-02-12T11:26:56.303Z"
+  },
+  {
+    "id": "184",
+    "name": "Flötzersteigbrücke",
+    "monitors_count": 1,
+    "lines": [
+      "51A"
+    ],
+    "discovered_at": "2026-02-12T11:27:56.799Z"
+  },
+  {
+    "id": "185",
+    "name": "Lebingergasse",
+    "monitors_count": 1,
+    "lines": [
+      "51A"
+    ],
+    "discovered_at": "2026-02-12T11:28:11.955Z"
+  },
+  {
+    "id": "186",
+    "name": "Ameisbachzeile, Hanuschkrankenhaus",
+    "monitors_count": 1,
+    "lines": [
+      "51A"
+    ],
+    "discovered_at": "2026-02-12T11:28:27.046Z"
+  },
+  {
+    "id": "187",
+    "name": "Kutschkergasse",
+    "monitors_count": 2,
+    "lines": [
+      "40"
+    ],
+    "discovered_at": "2026-02-12T11:28:42.149Z"
+  },
+  {
+    "id": "188",
+    "name": "Spitalgasse",
+    "monitors_count": 5,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:28:57.239Z"
+  },
+  {
+    "id": "189",
+    "name": "Währinger Straße, Volksoper U",
+    "monitors_count": 2,
+    "lines": [
+      "40"
+    ],
+    "discovered_at": "2026-02-12T11:29:12.336Z"
+  },
+  {
+    "id": "190",
+    "name": "Martinstraße",
+    "monitors_count": 2,
+    "lines": [
+      "40"
+    ],
+    "discovered_at": "2026-02-12T11:29:27.729Z"
+  },
+  {
+    "id": "191",
+    "name": "Aumannplatz",
+    "monitors_count": 2,
+    "lines": [
+      "40"
+    ],
+    "discovered_at": "2026-02-12T11:29:43.121Z"
+  },
+  {
+    "id": "192",
+    "name": "Weinhauser Gasse",
+    "monitors_count": 2,
+    "lines": [
+      "40"
+    ],
+    "discovered_at": "2026-02-12T11:29:58.525Z"
+  },
+  {
+    "id": "195",
+    "name": "Herbeckstraße",
+    "monitors_count": 1,
+    "lines": [
+      "40"
+    ],
+    "discovered_at": "2026-02-12T11:31:43.887Z"
+  },
+  {
+    "id": "196",
+    "name": "Guneschgasse",
+    "monitors_count": 1,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:31:59.274Z"
+  },
+  {
+    "id": "197",
+    "name": "Döblinger Hauptstraße, Gatterburggasse",
+    "monitors_count": 1,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:32:14.666Z"
+  },
+  {
+    "id": "198",
+    "name": "Pokornygasse",
+    "monitors_count": 1,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:32:29.751Z"
+  },
+  {
+    "id": "199",
+    "name": "Barawitzkagasse",
+    "monitors_count": 1,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:32:44.921Z"
+  },
+  {
+    "id": "200",
+    "name": "Perntergasse",
+    "monitors_count": 1,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:33:00.007Z"
+  },
+  {
+    "id": "202",
+    "name": "Perntergasse",
+    "monitors_count": 1,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:34:00.801Z"
+  },
+  {
+    "id": "203",
+    "name": "Barawitzkagasse",
+    "monitors_count": 1,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:34:15.888Z"
+  },
+  {
+    "id": "204",
+    "name": "Pokornygasse",
+    "monitors_count": 1,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:34:30.978Z"
+  },
+  {
+    "id": "205",
+    "name": "Döblinger Hauptstraße, Gatterburggasse",
+    "monitors_count": 1,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:34:46.071Z"
+  },
+  {
+    "id": "206",
+    "name": "Guneschgasse",
+    "monitors_count": 1,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:35:02.607Z"
+  },
+  {
+    "id": "207",
+    "name": "Glatzgasse",
+    "monitors_count": 1,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:35:17.715Z"
+  },
+  {
+    "id": "209",
+    "name": "Canisiusgasse",
+    "monitors_count": 2,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:36:17.918Z"
+  },
+  {
+    "id": "210",
+    "name": "Nußdorfer Straße / Alserbachstraße",
+    "monitors_count": 2,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:36:33.311Z"
+  },
+  {
+    "id": "211",
+    "name": "Spitalgasse",
+    "monitors_count": 4,
+    "lines": [
+      "12"
+    ],
+    "discovered_at": "2026-02-12T11:36:48.409Z"
+  },
+  {
+    "id": "212",
+    "name": "Döblinger Bad",
+    "monitors_count": 1,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:37:05.003Z"
+  },
+  {
+    "id": "213",
+    "name": "Nußdorfer Straße / Alserbachstraße",
+    "monitors_count": 2,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:37:20.409Z"
+  },
+  {
+    "id": "214",
+    "name": "Canisiusgasse",
+    "monitors_count": 2,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:37:35.498Z"
+  },
+  {
+    "id": "215",
+    "name": "Nußdorfer Straße U",
+    "monitors_count": 2,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:37:50.904Z"
+  },
+  {
+    "id": "216",
+    "name": "Glatzgasse",
+    "monitors_count": 2,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:38:06.006Z"
+  },
+  {
+    "id": "217",
+    "name": "Lange Gasse",
+    "monitors_count": 2,
+    "lines": [
+      "43"
+    ],
+    "discovered_at": "2026-02-12T11:38:21.094Z"
+  },
+  {
+    "id": "218",
+    "name": "Skodagasse",
+    "monitors_count": 2,
+    "lines": [
+      "43"
+    ],
+    "discovered_at": "2026-02-12T11:38:36.479Z"
+  },
+  {
+    "id": "219",
+    "name": "Brünnlbadgasse",
+    "monitors_count": 2,
+    "lines": [
+      "43"
+    ],
+    "discovered_at": "2026-02-12T11:38:51.600Z"
+  },
+  {
+    "id": "220",
+    "name": "Alser Straße U",
+    "monitors_count": 1,
+    "lines": [
+      "43"
+    ],
+    "discovered_at": "2026-02-12T11:39:06.996Z"
+  },
+  {
+    "id": "221",
+    "name": "Palffygasse",
+    "monitors_count": 1,
+    "lines": [
+      "43"
+    ],
+    "discovered_at": "2026-02-12T11:39:22.087Z"
+  },
+  {
+    "id": "222",
+    "name": "Elterleinplatz",
+    "monitors_count": 1,
+    "lines": [
+      "43"
+    ],
+    "discovered_at": "2026-02-12T11:39:37.254Z"
+  },
+  {
+    "id": "223",
+    "name": "Rosensteingasse",
+    "monitors_count": 2,
+    "lines": [
+      "43"
+    ],
+    "discovered_at": "2026-02-12T11:39:54.068Z"
+  },
+  {
+    "id": "224",
+    "name": "Hernals, Wattgasse",
+    "monitors_count": 1,
+    "lines": [
+      "43"
+    ],
+    "discovered_at": "2026-02-12T11:40:09.458Z"
+  },
+  {
+    "id": "231",
+    "name": "Rosensteingasse",
+    "monitors_count": 1,
+    "lines": [
+      "43"
+    ],
+    "discovered_at": "2026-02-12T11:42:37.368Z"
+  },
+  {
+    "id": "232",
+    "name": "Elterleinplatz",
+    "monitors_count": 1,
+    "lines": [
+      "43"
+    ],
+    "discovered_at": "2026-02-12T11:42:52.456Z"
+  },
+  {
+    "id": "233",
+    "name": "Palffygasse",
+    "monitors_count": 1,
+    "lines": [
+      "43"
+    ],
+    "discovered_at": "2026-02-12T11:43:07.854Z"
+  },
+  {
+    "id": "234",
+    "name": "Alser Straße U",
+    "monitors_count": 1,
+    "lines": [
+      "43"
+    ],
+    "discovered_at": "2026-02-12T11:43:22.939Z"
+  },
+  {
+    "id": "235",
+    "name": "Brünnlbadgasse",
+    "monitors_count": 1,
+    "lines": [
+      "43"
+    ],
+    "discovered_at": "2026-02-12T11:43:38.018Z"
+  },
+  {
+    "id": "236",
+    "name": "Skodagasse",
+    "monitors_count": 2,
+    "lines": [
+      "43"
+    ],
+    "discovered_at": "2026-02-12T11:43:53.401Z"
+  },
+  {
+    "id": "237",
+    "name": "Lange Gasse",
+    "monitors_count": 2,
+    "lines": [
+      "43"
+    ],
+    "discovered_at": "2026-02-12T11:44:08.495Z"
+  },
+  {
+    "id": "238",
+    "name": "Landesgerichtsstraße",
+    "monitors_count": 2,
+    "lines": [
+      "43"
+    ],
+    "discovered_at": "2026-02-12T11:44:29.407Z"
+  },
+  {
+    "id": "239",
+    "name": "Hainburger Straße",
+    "monitors_count": 1,
+    "lines": [
+      "77A"
+    ],
+    "discovered_at": "2026-02-12T11:44:44.569Z"
+  },
+  {
+    "id": "240",
+    "name": "Hohe Warte",
+    "monitors_count": 1,
+    "lines": [
+      "37"
+    ],
+    "discovered_at": "2026-02-12T11:44:59.656Z"
+  },
+  {
+    "id": "243",
+    "name": "Weinheimergasse",
+    "monitors_count": 1,
+    "lines": [
+      "44"
+    ],
+    "discovered_at": "2026-02-12T11:46:45.548Z"
+  },
+  {
+    "id": "244",
+    "name": "Redtenbachergasse",
+    "monitors_count": 1,
+    "lines": [
+      "44"
+    ],
+    "discovered_at": "2026-02-12T11:47:00.858Z"
+  },
+  {
+    "id": "245",
+    "name": "Familienplatz",
+    "monitors_count": 1,
+    "lines": [
+      "44"
+    ],
+    "discovered_at": "2026-02-12T11:47:15.945Z"
+  },
+  {
+    "id": "246",
+    "name": "Johann-Nepomuk-Berger-Platz",
+    "monitors_count": 1,
+    "lines": [
+      "44"
+    ],
+    "discovered_at": "2026-02-12T11:47:31.371Z"
+  },
+  {
+    "id": "247",
+    "name": "Haberlgasse",
+    "monitors_count": 1,
+    "lines": [
+      "2"
+    ],
+    "discovered_at": "2026-02-12T11:47:46.777Z"
+  },
+  {
+    "id": "248",
+    "name": "Brunnenmarkt",
+    "monitors_count": 1,
+    "lines": [
+      "2"
+    ],
+    "discovered_at": "2026-02-12T11:48:02.380Z"
+  },
+  {
+    "id": "249",
+    "name": "Josefstädter Straße U",
+    "monitors_count": 1,
+    "lines": [
+      "2"
+    ],
+    "discovered_at": "2026-02-12T11:48:17.766Z"
+  },
+  {
+    "id": "251",
+    "name": "Josefstädter Str. / Lederergasse",
+    "monitors_count": 1,
+    "lines": [
+      "2"
+    ],
+    "discovered_at": "2026-02-12T11:49:23.241Z"
+  },
+  {
+    "id": "252",
+    "name": "Rathaus U",
+    "monitors_count": 1,
+    "lines": [
+      "2"
+    ],
+    "discovered_at": "2026-02-12T11:49:38.327Z"
+  },
+  {
+    "id": "253",
+    "name": "Landstraße S U",
+    "monitors_count": 1,
+    "lines": [
+      "74A"
+    ],
+    "discovered_at": "2026-02-12T11:49:53.412Z"
+  },
+  {
+    "id": "257",
+    "name": "Kardinal-Nagl-Platz U",
+    "monitors_count": 1,
+    "lines": [
+      "77A"
+    ],
+    "discovered_at": "2026-02-12T11:52:05.655Z"
+  },
+  {
+    "id": "258",
+    "name": "Lechnerstraße ",
+    "monitors_count": 1,
+    "lines": [
+      "77A"
+    ],
+    "discovered_at": "2026-02-12T11:52:20.794Z"
+  },
+  {
+    "id": "259",
+    "name": "Landstraße S U",
+    "monitors_count": 1,
+    "lines": [
+      "74A"
+    ],
+    "discovered_at": "2026-02-12T11:52:35.880Z"
+  },
+  {
+    "id": "262",
+    "name": "Lechnerstraße",
+    "monitors_count": 1,
+    "lines": [
+      "77A"
+    ],
+    "discovered_at": "2026-02-12T11:53:21.768Z"
+  },
+  {
+    "id": "263",
+    "name": "Kardinal-Nagl-Platz U",
+    "monitors_count": 1,
+    "lines": [
+      "77A"
+    ],
+    "discovered_at": "2026-02-12T11:53:36.845Z"
+  },
+  {
+    "id": "264",
+    "name": "Rabengasse",
+    "monitors_count": 1,
+    "lines": [
+      "77A"
+    ],
+    "discovered_at": "2026-02-12T11:53:51.923Z"
+  },
+  {
+    "id": "265",
+    "name": "Klimschgasse",
+    "monitors_count": 1,
+    "lines": [
+      "77A"
+    ],
+    "discovered_at": "2026-02-12T11:54:07.313Z"
+  },
+  {
+    "id": "266",
+    "name": "Barichgasse",
+    "monitors_count": 1,
+    "lines": [
+      "74A"
+    ],
+    "discovered_at": "2026-02-12T11:54:22.401Z"
+  },
+  {
+    "id": "269",
+    "name": "Rathaus U",
+    "monitors_count": 1,
+    "lines": [
+      "2"
+    ],
+    "discovered_at": "2026-02-12T11:56:13.317Z"
+  },
+  {
+    "id": "270",
+    "name": "Josefstädter Str. / Lederergasse",
+    "monitors_count": 1,
+    "lines": [
+      "2"
+    ],
+    "discovered_at": "2026-02-12T11:56:28.703Z"
+  },
+  {
+    "id": "271",
+    "name": "Albertgasse",
+    "monitors_count": 1,
+    "lines": [
+      "2"
+    ],
+    "discovered_at": "2026-02-12T11:56:44.596Z"
+  },
+  {
+    "id": "273",
+    "name": "Josefstädter Straße U",
+    "monitors_count": 1,
+    "lines": [
+      "2"
+    ],
+    "discovered_at": "2026-02-12T11:57:45.309Z"
+  },
+  {
+    "id": "274",
+    "name": "Brunnenmarkt",
+    "monitors_count": 1,
+    "lines": [
+      "2"
+    ],
+    "discovered_at": "2026-02-12T11:58:05.610Z"
+  },
+  {
+    "id": "275",
+    "name": "Neulerchenfelder Str. / Haberlgasse",
+    "monitors_count": 1,
+    "lines": [
+      "2"
+    ],
+    "discovered_at": "2026-02-12T11:58:21.002Z"
+  },
+  {
+    "id": "276",
+    "name": "Johann-Nepomuk-Berger-Platz",
+    "monitors_count": 1,
+    "lines": [
+      "44"
+    ],
+    "discovered_at": "2026-02-12T11:58:36.088Z"
+  },
+  {
+    "id": "277",
+    "name": "Familienplatz",
+    "monitors_count": 1,
+    "lines": [
+      "44"
+    ],
+    "discovered_at": "2026-02-12T11:58:51.477Z"
+  },
+  {
+    "id": "278",
+    "name": "Redtenbachergasse",
+    "monitors_count": 1,
+    "lines": [
+      "44"
+    ],
+    "discovered_at": "2026-02-12T11:59:06.866Z"
+  },
+  {
+    "id": "279",
+    "name": "Johannes-Krawarik-Gasse",
+    "monitors_count": 1,
+    "lines": [
+      "44"
+    ],
+    "discovered_at": "2026-02-12T11:59:22.255Z"
+  },
+  {
+    "id": "280",
+    "name": "Kleistgasse",
+    "monitors_count": 1,
+    "lines": [
+      "77A"
+    ],
+    "discovered_at": "2026-02-12T11:59:37.347Z"
+  },
+  {
+    "id": "281",
+    "name": "Barichgasse",
+    "monitors_count": 1,
+    "lines": [
+      "74A"
+    ],
+    "discovered_at": "2026-02-12T11:59:52.741Z"
+  },
+  {
+    "id": "283",
+    "name": "Rabengasse",
+    "monitors_count": 1,
+    "lines": [
+      "74A"
+    ],
+    "discovered_at": "2026-02-12T12:00:53.235Z"
+  },
+  {
+    "id": "284",
+    "name": "St. Marx S",
+    "monitors_count": 1,
+    "lines": [
+      "18"
+    ],
+    "discovered_at": "2026-02-12T12:01:08.400Z"
+  },
+  {
+    "id": "286",
+    "name": "St. Marx S, Leberstraße",
+    "monitors_count": 1,
+    "lines": [
+      "74A"
+    ],
+    "discovered_at": "2026-02-12T12:02:14.800Z"
+  },
+  {
+    "id": "287",
+    "name": "Viehmarktgasse",
+    "monitors_count": 1,
+    "lines": [
+      "74A"
+    ],
+    "discovered_at": "2026-02-12T12:02:31.699Z"
+  },
+  {
+    "id": "288",
+    "name": "St. Marx S",
+    "monitors_count": 1,
+    "lines": [
+      "74A"
+    ],
+    "discovered_at": "2026-02-12T12:02:47.085Z"
+  },
+  {
+    "id": "291",
+    "name": "Stubentor U",
+    "monitors_count": 1,
+    "lines": [
+      "74A"
+    ],
+    "discovered_at": "2026-02-12T12:04:32.377Z"
+  },
+  {
+    "id": "292",
+    "name": "Petrusgasse",
+    "monitors_count": 1,
+    "lines": [
+      "74A"
+    ],
+    "discovered_at": "2026-02-12T12:04:47.463Z"
+  },
+  {
+    "id": "293",
+    "name": "St. Marx S",
+    "monitors_count": 2,
+    "lines": [
+      "18"
+    ],
+    "discovered_at": "2026-02-12T12:05:02.538Z"
+  },
+  {
+    "id": "295",
+    "name": "Eslarngasse",
+    "monitors_count": 1,
+    "lines": [
+      "74A"
+    ],
+    "discovered_at": "2026-02-12T12:06:04.063Z"
+  },
+  {
+    "id": "296",
+    "name": "Rochusgasse U",
+    "monitors_count": 1,
+    "lines": [
+      "74A"
+    ],
+    "discovered_at": "2026-02-12T12:06:19.154Z"
+  },
+  {
+    "id": "297",
+    "name": "Rochusgasse U",
+    "monitors_count": 1,
+    "lines": [
+      "74A"
+    ],
+    "discovered_at": "2026-02-12T12:06:34.544Z"
+  },
+  {
+    "id": "298",
+    "name": "Weyrgasse",
+    "monitors_count": 1,
+    "lines": [
+      "74A"
+    ],
+    "discovered_at": "2026-02-12T12:06:49.992Z"
+  },
+  {
+    "id": "299",
+    "name": "Raxstraße",
+    "monitors_count": 1,
+    "lines": [
+      "O"
+    ],
+    "discovered_at": "2026-02-12T12:07:05.159Z"
+  },
+  {
+    "id": "300",
+    "name": "Gudrunstraße",
+    "monitors_count": 1,
+    "lines": [
+      "O"
+    ],
+    "discovered_at": "2026-02-12T12:07:20.260Z"
+  }
+]
