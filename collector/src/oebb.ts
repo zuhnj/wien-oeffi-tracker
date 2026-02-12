@@ -45,14 +45,15 @@ interface HafasTrip {
 export class OebbCollector {
   private client: any;
   
-  // Major Vienna S-Bahn stations
+  // Major Vienna S-Bahn stations (using ÖBB HAFAS IDs)
+  // These IDs can be found via hafas-client.stop() or by inspecting API responses
   private defaultStops = [
-    '1190100', // Wien Mitte
-    '1190101', // Wien Praterstern
-    '1190102', // Wien Floridsdorf
-    '1290401', // Wien Hauptbahnhof
-    '1390405', // Wien Westbahnhof
-    '1291401', // Wien Meidling
+    '8103000', // Wien Mitte
+    '8103001', // Wien Praterstern
+    '8103003', // Wien Floridsdorf
+    '8101003', // Wien Hauptbahnhof
+    '8103002', // Wien Westbahnhof
+    '8101002', // Wien Meidling
   ];
 
   constructor() {
@@ -101,7 +102,6 @@ export class OebbCollector {
     const result = await this.client.departures(stopId, {
       duration: 60,
       results: 50,
-      stopovers: false,
       remarks: false,
     });
 

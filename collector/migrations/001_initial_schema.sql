@@ -1,6 +1,14 @@
 -- Wien Öffi Tracker - Initial Database Schema
 -- Optimized for time-series data analysis
 
+-- Clean up existing objects (idempotent migration)
+DROP MATERIALIZED VIEW IF EXISTS delay_stats_hourly CASCADE;
+DROP TABLE IF EXISTS collector_runs CASCADE;
+DROP TABLE IF EXISTS departures CASCADE;
+DROP TABLE IF EXISTS lines CASCADE;
+DROP TABLE IF EXISTS stops CASCADE;
+DROP TYPE IF EXISTS transport_type CASCADE;
+
 -- Enable TimescaleDB if available (optional)
 -- CREATE EXTENSION IF NOT EXISTS timescaledb;
 
@@ -147,5 +155,5 @@ CREATE INDEX idx_collector_runs_provider ON collector_runs(provider, started_at 
 COMMENT ON TABLE stops IS 'Public transport stops and stations';
 COMMENT ON TABLE lines IS 'Transit lines (U-Bahn, Tram, Bus, S-Bahn, etc.)';
 COMMENT ON TABLE departures IS 'Time-series departure data with real-time delay information';
-COMMENT ON TABLE delay_stats_hourly IS 'Pre-aggregated hourly statistics for faster dashboard queries';
+COMMENT ON MATERIALIZED VIEW delay_stats_hourly IS 'Pre-aggregated hourly statistics for faster dashboard queries';
 COMMENT ON TABLE collector_runs IS 'Audit log of data collection runs';

@@ -115,9 +115,10 @@ export class WienerLinienCollector {
       throw new Error(`HTTP ${response.status}: ${response.statusText}`);
     }
 
-    const data: WienerLinienResponse = await response.json();
+    const data = await response.json() as WienerLinienResponse;
 
-    if (data.message) {
+    // Message code 1 with value "OK" is not an error
+    if (data.message && data.message.messageCode !== 1) {
       throw new Error(`API Error ${data.message.messageCode}: ${data.message.value}`);
     }
 
