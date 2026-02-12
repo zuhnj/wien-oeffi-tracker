@@ -1,0 +1,43 @@
+{
+  "name": "wien-oeffi-collector",
+  "version": "1.0.0",
+  "description": "Data collector for Vienna public transport punctuality tracking",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "migrate": "node --loader tsx src/migrate.ts",
+    "test": "echo \"No tests yet\" && exit 0",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": [
+    "vienna",
+    "public-transport",
+    "wiener-linien",
+    "oebb",
+    "tracking"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "hafas-client": "^6.3.2",
+    "pg": "^8.12.0",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/pg": "^8.11.6",
+    "@types/node-cron": "^3.0.11",
+    "typescript": "^5.5.3",
+    "tsx": "^4.15.7",
+    "eslint": "^8.57.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
