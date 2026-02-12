@@ -33,9 +33,8 @@ export function validateConfig() {
     errors.push('DATABASE_URL is required');
   }
 
-  if (!config.wienerLinien.apiKey) {
-    errors.push('WIENER_LINIEN_API_KEY is required (register at data.gv.at)');
-  }
+  // Note: Wiener Linien API is public, no API key required
+  // Optional sender parameter can be set via WIENER_LINIEN_API_KEY for rate limit increases
 
   if (errors.length > 0) {
     throw new Error(`Configuration errors:\n${errors.join('\n')}`);

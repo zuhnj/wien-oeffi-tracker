@@ -104,7 +104,11 @@ export class WienerLinienCollector {
   }
 
   private async fetchStop(stopId: string): Promise<number> {
-    const url = `${this.baseUrl}?stopId=${stopId}&sender=${config.wienerLinien.apiKey}`;
+    // Build URL - sender parameter is optional (for rate limit increases only)
+    let url = `${this.baseUrl}?stopId=${stopId}`;
+    if (config.wienerLinien.apiKey) {
+      url += `&sender=${config.wienerLinien.apiKey}`;
+    }
     
     const response = await fetch(url);
     if (!response.ok) {
