@@ -32,8 +32,9 @@ declare module 'hafas-client' {
   }
 
   export interface HafasClient {
-    departures(stationId: string, options?: any): Promise<Departure[]>;
+    departures(stationId: string, options?: any): Promise<{ departures?: Departure[], realtimeDataUpdatedAt?: number }>;
     stop(id: string): Promise<Station>;
+    locations(query: string, options?: any): Promise<Station[]>;
   }
 
   export function createClient(profile: any, userAgent: string): HafasClient;

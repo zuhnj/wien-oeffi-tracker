@@ -57,15 +57,43 @@ const TRANSPORT_TYPE_MAP: Record<string, 'u_bahn' | 'tram' | 'bus' | 's_bahn' | 
 export class WienerLinienCollector {
   private baseUrl = 'https://www.wienerlinien.at/ogd_realtime/monitor';
   
-  // Major Vienna transit stops (can be customized via env)
+  // Major Vienna transit stops - U-Bahn nodes + important tram/bus hubs
   private defaultStops = [
-    '231', // Karlsplatz
-    '1346', // Stephansplatz
-    '1391', // Westbahnhof
-    '1390', // Praterstern
+    // U1, U2, U4 hub
+    '231', // Karlsplatz U1,U2,U4
+    
+    // U1, U3 hub
+    '1346', // Stephansplatz U1,U3
+    
+    // U1, U2 hub
+    '1390', // Praterstern U1,U2
+    
+    // U3, U6 hub
+    '1391', // Westbahnhof U3,U6
+    
+    // Main station
     '4918', // Hauptbahnhof
-    '5710', // Schwedenplatz
-    '231', // Karlsplatz
+    
+    // U2 stations
+    '4201', // Seestadt U2
+    '4203', // Hausfeldstraße U2
+    '4220', // Karlsplatz U2 (duplicate check)
+    
+    // U3 endpoints
+    '1901', // Ottakring U3
+    '1920', // Simmering U3
+    
+    // U4 endpoints  
+    '5901', // Hütteldorf U4
+    '5920', // Heiligenstadt U4
+    
+    // U6 endpoints
+    '4601', // Siebenhirten U6
+    '4622', // Floridsdorf U6
+    
+    // Important tram hubs
+    '60201509', // Schwarzenbergplatz (Badner Bahn)
+    '60200454', // Ring/Volkstheater
   ];
 
   async collect(): Promise<{ stops: number; departures: number }> {
@@ -92,8 +120,8 @@ export class WienerLinienCollector {
         console.error(`[WL] Error fetching stop ${stopId}:`, error);
       }
 
-      // Rate limiting: 100ms between requests
-      await this.sleep(100);
+      // Rate limiting: 3 seconds between requests to avoid 403 Forbidden
+      await this.sleep(3000);
     }
 
     if (errors.length > 0) {

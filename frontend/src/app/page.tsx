@@ -5,7 +5,8 @@ import {
   getDelayStatsByStop,
   getHourlyTrends,
   getWeekdayStats,
-  getTimeOfDayStats
+  getTimeOfDayStats,
+  getStationDelays
 } from '@/lib/db';
 import StatsOverview from '@/components/StatsOverview';
 import DelayByLineChart from '@/components/DelayByLineChart';
@@ -13,6 +14,7 @@ import DelayByStopChart from '@/components/DelayByStopChart';
 import HourlyTrendChart from '@/components/HourlyTrendChart';
 import WeekdayChart from '@/components/WeekdayChart';
 import TimeOfDayChart from '@/components/TimeOfDayChart';
+import DelayHeatmap from '@/components/DelayHeatmap';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 60; // Revalidate every 60 seconds
@@ -25,6 +27,7 @@ async function DashboardContent() {
     hourlyTrends,
     weekdayStats,
     timeOfDayStats,
+    stationDelays,
   ] = await Promise.all([
     getOverallStats(7),
     getDelayStatsByLine(7),
@@ -32,6 +35,7 @@ async function DashboardContent() {
     getHourlyTrends(7),
     getWeekdayStats(30),
     getTimeOfDayStats(7),
+    getStationDelays(7),
   ]);
 
   return (
@@ -55,6 +59,14 @@ async function DashboardContent() {
 
         {/* Charts Grid */}
         <div className="mt-8 space-y-8">
+          {/* Delay Heatmap */}
+          <div className="card">
+            <h2 className="text-xl font-semibold text-gray-900 mb-4">
+              🗺️ Verspätungs-Heatmap Wien
+            </h2>
+            <DelayHeatmap data={stationDelays} />
+          </div>
+
           {/* Hourly Trend */}
           <div className="card">
             <h2 className="text-xl font-semibold text-gray-900 mb-4">

@@ -155,6 +155,29 @@ export async function getTimeOfDayStats(days: number = 7): Promise<any[]> {
   return result.rows;
 }
 
+export async function getStationDelays(days: number = 7) {
+  const result = await pool.query(`
+    SELECT 
+      s.name,
+      s.latitude,
+      s.longitude,
+      AVG(d.delay_seconds) FILTER (WHERE d.delay_seconds IS NOT NULL) as avg_delay,
+      PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY d.delay_seconds) FILTER (WHERE d.delay_seconds IS NOT NULL) as median_delay,
+      COUNT(*) FILTER (WHERE d.delay_seconds IS NOT NULL) as departure_count
+    FROM departures d
+    JOIN stops s ON d.stop_id = s.id
+    WHERE d.timestamp > NOW() - INTERVAL '${days} days'
+      AND d.delay_seconds IS NOT NULL
+      AND s.latitude IS NOT NULL
+      AND s.longitude IS NOT NULL
+    GROUP BY s.id, s.name, s.latitude, s.longitude
+    HAVING COUNT(*) FILTER (WHERE d.delay_seconds IS NOT NULL) >= 5
+    ORDER BY avg_delay DESC
+  `);
+  
+  return result.rows;
+}
+
 export async function getRecentDepartures(limit: number = 100) {
   const result = await pool.query(`
     SELECT 

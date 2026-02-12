@@ -45,15 +45,21 @@ interface HafasTrip {
 export class OebbCollector {
   private client: any;
   
-  // Major Vienna S-Bahn stations (using ÖBB HAFAS IDs)
-  // These IDs can be found via hafas-client.stop() or by inspecting API responses
+  // Major Vienna S-Bahn stations (validated working IDs from actual data)
   private defaultStops = [
-    '8103000', // Wien Mitte
-    '8103001', // Wien Praterstern
-    '8103003', // Wien Floridsdorf
-    '8101003', // Wien Hauptbahnhof
-    '8103002', // Wien Westbahnhof
-    '8101002', // Wien Meidling
+    '8103000', // Wien Hbf (Tiefgeschoß Straßenbahn) - works!
+    '1290401', // Wien Hbf (Tiefgeschoß Straßenbahn) - works!
+    '1291401', // Wien Hütteldorf Bahnhof - works!
+    '1190100', // Wien Hbf - works!
+    '8101003', // Wien Blumental Bahnhst - works!
+    
+    // Additional major S-Bahn hubs to try
+    '1390104', // Wien Praterstern
+    '1391403', // Wien Westbahnhof
+    '1290462', // Wien Meidling
+    '1303305', // Wien Floridsdorf
+    '1370107', // Wien Heiligenstadt
+    '1170550', // Wien Handelskai
   ];
 
   constructor() {
@@ -98,9 +104,9 @@ export class OebbCollector {
   private async fetchStop(stopId: string): Promise<number> {
     const now = new Date();
     
-    // Fetch departures for the next 60 minutes
+    // Fetch departures for the next 90 minutes (ensures overlap, no departures missed)
     const result = await this.client.departures(stopId, {
-      duration: 60,
+      duration: 90,
       results: 50,
       remarks: false,
     });
