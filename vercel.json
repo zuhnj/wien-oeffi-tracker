@@ -1,0 +1,9 @@
+{
+  "buildCommand": "cd frontend && npm run build",
+  "outputDirectory": "frontend/.next",
+  "framework": "nextjs",
+  "regions": ["fra1"],
+  "env": {
+    "DATABASE_URL": "@database_url"
+  }
+}

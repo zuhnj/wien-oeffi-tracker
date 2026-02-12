@@ -1,0 +1,35 @@
+# Systemd service for Wien Öffi Collector
+# 
+# Installation:
+#   1. Copy this file to /etc/systemd/system/oeffi-collector.service
+#   2. Edit paths and user below
+#   3. sudo systemctl daemon-reload
+#   4. sudo systemctl enable oeffi-collector
+#   5. sudo systemctl start oeffi-collector
+#
+# Check status: sudo systemctl status oeffi-collector
+# View logs: sudo journalctl -u oeffi-collector -f
+
+[Unit]
+Description=Wien Öffi Punctuality Tracker - Data Collector
+After=network.target postgresql.service
+
+[Service]
+Type=simple
+User=node
+Group=node
+WorkingDirectory=/path/to/wien-oeffi-tracker/collector
+Environment="NODE_ENV=production"
+ExecStart=/usr/bin/node /path/to/wien-oeffi-tracker/collector/dist/index.js
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=oeffi-collector
+
+# Security
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
